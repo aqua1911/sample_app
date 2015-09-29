@@ -41,6 +41,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
 group :development do
   gem 'rspec-rails'
+  #gem 'annotate-models'
 end
 
 group :test do

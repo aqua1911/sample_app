@@ -1,5 +1,9 @@
 class UsersController < ApplicationController
-  def new
-	@title = "Inscription"
+  def show
+    @user = User.find(params[:id])
+  end
+	
+	def new
+    @title = "S'inscrire"
   end
 end
